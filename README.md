@@ -10,9 +10,6 @@ The controller controls two stepper motors. One stepper motor folows player 1's 
 A graphic tool is attached to a platform which is moving thanks to the motors. 
 On a paper, a drawing of the pong game apppears.
 
-![dessin_001](https://user-images.githubusercontent.com/91726252/142757424-12692d34-b661-4564-b0c0-71b7e66ab1d1.png)
-Drawing of a pong game in 11 points with brush and ink
-
 ## Installation
 - Install processing : https://processing.org/download
 - Install arduino : https://www.arduino.cc/en/software
@@ -112,10 +109,11 @@ void loop() {
 For a processing and pong step you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
 The pong gameplay can be improoved and bugs & glitch could be corrected. 
 
-Pictures of how the machine draws the games and scans of drawings.
+![005](https://user-images.githubusercontent.com/91726252/142760173-62a0a48b-d2f5-4c34-a54e-006e002a3fe6.png)
+Pictures of how the machine draws.
 
-![006](https://user-images.githubusercontent.com/91726252/142759999-24afa619-531a-4cbe-b8ee-119bf3f77768.png)
-![montage4](https://user-images.githubusercontent.com/91726252/142759672-7a6455ca-e54d-433d-a2fa-f7cd7d02fda0.png)
+![dessin_001](https://user-images.githubusercontent.com/91726252/142757424-12692d34-b661-4564-b0c0-71b7e66ab1d1.png)
+Drawing of a pong game in 11 points with brush and ink
 
 A short video : 
 https://user-images.githubusercontent.com/91726252/142759974-290a199b-e3c5-4385-8608-56e26b934acb.mp4
@@ -124,7 +122,7 @@ The music in the game is Pong 808 from Hugz. You can find it on spotify : https:
 
 # Exhibition
 
-This project has been exposed at the Elia Galery in Paris on the 5 and 6 of june 2021.
+This project has been exposed at the Elia Art Galery in Paris on the 5 and 6 of june 2021.
 More than 150 games were played. 150 drawings were drawn and each are different. 
 
 ![montage](https://user-images.githubusercontent.com/91726252/142758852-cce523d6-ded7-42f9-a174-6e011c8072bd.png)
