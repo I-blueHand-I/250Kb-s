@@ -106,11 +106,11 @@ void loop() {
   delay(1); // Don't use a delay smaller than 20 ms or so.
 }
 ```
-For a processing and pong step you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
+For the pong with processing you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
 The pong gameplay can be improoved and bugs & glitch could be corrected. 
 
 ![005](https://user-images.githubusercontent.com/91726252/142760173-62a0a48b-d2f5-4c34-a54e-006e002a3fe6.png)
-Pictures of how the machine draws.
+Picture of how the machine draws.
 
 ![dessin_001](https://user-images.githubusercontent.com/91726252/142757424-12692d34-b661-4564-b0c0-71b7e66ab1d1.png)
 Drawing of a pong game in 11 points with brush and ink
