@@ -112,7 +112,7 @@ void loop() {
 For a processing and pong step you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
 The pong gameplay can be improoved and bugs & glitch could be corrected. 
 
-This are pictures of how the machine draws the games and scans of drawings.
+Pictures of how the machine draws the games and scans of drawings.
 
 ![006](https://user-images.githubusercontent.com/91726252/142759999-24afa619-531a-4cbe-b8ee-119bf3f77768.png)
 ![montage4](https://user-images.githubusercontent.com/91726252/142759672-7a6455ca-e54d-433d-a2fa-f7cd7d02fda0.png)
