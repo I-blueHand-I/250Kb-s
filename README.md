@@ -1,6 +1,6 @@
 # 250Kb-s
 
-<img width="750" alt="title2" src="https://user-images.githubusercontent.com/91726252/142782168-589083c5-42c9-4e8f-ae50-36d12576c81d.png">
+<img width="750" alt="title2" src="https://user-images.githubusercontent.com/91726252/142782278-d701ddd7-09b6-45d9-932e-2cfe5e2a1f82.png">
 
 250Kb/s is a french program developped in 2021. 
 Two players are playing to Pong. While they are playing, values of their analog shifting are tranfered to an arduino.
