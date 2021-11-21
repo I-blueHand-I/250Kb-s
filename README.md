@@ -4,7 +4,6 @@
 <img width="689" alt="title" src="https://user-images.githubusercontent.com/91726252/142757149-a1dc565e-19ee-48b4-bc63-d593849a5484.png">
 
 
-
 250Kb/s is a french program developped in 2021. 
 Two players are playing to Pong. While they are playing, values of their analog shifting are tranfered to an arduino.
 The controller controls two stepper motors. One stepper motor folows player 1's mouvement, the second one folows player's 2 mouvement.
@@ -24,19 +23,24 @@ Drawing of a pong game in 11 points with brush and ink
 **Hardware**
 
 Not so many electronic componants are necessary to build 250kb/s hardware. It will need a : arduino nano, two drivers 4988 for the stepper motors, two joysticks, and buttons.
+- Driver 4988 datasheet : https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf
+- Arduino nano datasheet : http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf
+
 This is the schematic view of the electronic circuit built on fritzing and the photo of the circuit.
-![circuit](https://user-images.githubusercontent.com/91726252/142757919-56129fbd-1eb7-4bc9-a2fb-76985a4ad843.png)
-![001](https://user-images.githubusercontent.com/91726252/142757893-60456501-0df0-4627-b7e1-8ddce378633e.png)
+![circuit](https://user-images.githubusercontent.com/91726252/142759029-00d4baa5-e7c2-4acb-8c34-1a92d7e3aacc.png)
+![001](https://user-images.githubusercontent.com/91726252/142759013-2fd5b77a-6185-4cd4-bb0d-6c4d200bb480.png)
 
 **Software**
 
 The biggest issue for this project was to make processing and arduino communicate without librairies like firmata. 
 You'll need to download if it is not, the processing library **Serial**. This librairy will link processing's printed values to arduino canal.
 Make sure arduino and processing are on he same **baud** here is **250.000bytes/s**. You will find a code in the repo to link processing and arduino. 
-To moove your pallet in the pong game, you will use a joystick. This joystick is use to play pong and to turn stepper motor. 
+To moove your pallet in the pong game, you will use a joystick. This joystick is used to play pong and to turn stepper motor. 
 In repository you will find arduino and processing files. 
 
 This is the arduino code (you'll also find it the repo).
+You'll need for arduino the Accelstepper librairy.
+AccelStepper : https://github.com/waspinator/AccelStepper
 ```
 //Include the AccelStepper library:
 #include <MultiStepper.h>
@@ -105,5 +109,20 @@ void loop() {
   delay(1); // Don't use a delay smaller than 20 ms or so.
 }
 ```
-You'll need for arduino the Accelstepper librairy.
-- AccelStepper : https://github.com/waspinator/AccelStepper
+For a processing and pong step you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
+The pong gameplay can be improoved and bugs & glitch could be corrected. 
+
+This is all the setup of 250Kb/s :
+![006](https://user-images.githubusercontent.com/91726252/142758531-7cf7da9d-04dd-45a2-810c-2c8c6286b728.png)
+
+The music in the game is Pong 808 from Hugz. You can find it on spotify : https://open.spotify.com/track/0TRtWhqcXoWJEkF7JQUwxP
+
+# Exhibition
+
+This project has been exposed at the Elia Galery in Paris on the 5 and 6 of june 2021.
+More than 150 games were played. 150 drawings were drawn and each are different. 
+
+![montage](https://user-images.githubusercontent.com/91726252/142758852-cce523d6-ded7-42f9-a174-6e011c8072bd.png)
+![montage3](https://user-images.githubusercontent.com/91726252/142758946-f8931804-1124-4810-a128-f5544b8be6af.png)
+![montage2](https://user-images.githubusercontent.com/91726252/142758895-6b32231d-7875-4817-8c37-f86cd06c7a4a.png)
+
