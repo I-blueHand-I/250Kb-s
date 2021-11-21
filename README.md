@@ -23,9 +23,12 @@ Drawing of a pong game in 11 points with brush and ink
 **Hardware**
 
 Not so many electronic componants are necessary to build 250kb/s hardware. It will need a : arduino nano, two drivers 4988 for the stepper motors, two joysticks, and buttons.
+- Driver 4988 datasheet : https://www.pololu.com/file/0J450/a4988_DMOS_microstepping_driver_with_translator.pdf
+- Arduino nano datasheet : http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf
+
 This is the schematic view of the electronic circuit built on fritzing and the photo of the circuit.
-
-
+![circuit](https://user-images.githubusercontent.com/91726252/142759029-00d4baa5-e7c2-4acb-8c34-1a92d7e3aacc.png)
+![001](https://user-images.githubusercontent.com/91726252/142759013-2fd5b77a-6185-4cd4-bb0d-6c4d200bb480.png)
 
 **Software**
 
@@ -109,10 +112,10 @@ void loop() {
 For a processing and pong step you can find a pong game already done. I recommand to do it yourself (inspired by models) to link correctly values to arduino.
 The pong gameplay can be improoved and bugs & glitch could be corrected. 
 
-The music in the game is Pong 808 from Hugz. You can find it on spotify : https://open.spotify.com/track/0TRtWhqcXoWJEkF7JQUwxP
-
 This is all the setup of 250Kb/s :
 ![006](https://user-images.githubusercontent.com/91726252/142758531-7cf7da9d-04dd-45a2-810c-2c8c6286b728.png)
+
+The music in the game is Pong 808 from Hugz. You can find it on spotify : https://open.spotify.com/track/0TRtWhqcXoWJEkF7JQUwxP
 
 # Exhibition
 
