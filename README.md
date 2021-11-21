@@ -1,8 +1,6 @@
 # 250Kb-s
 
-
-<img width="689" alt="title" src="https://user-images.githubusercontent.com/91726252/142757149-a1dc565e-19ee-48b4-bc63-d593849a5484.png">
-
+<img width="750" alt="title2" src="https://user-images.githubusercontent.com/91726252/142782168-589083c5-42c9-4e8f-ae50-36d12576c81d.png">
 
 250Kb/s is a french program developped in 2021. 
 Two players are playing to Pong. While they are playing, values of their analog shifting are tranfered to an arduino.
@@ -125,8 +123,8 @@ The music in the game is Pong 808 from Hugz. You can find it on spotify : https:
 This project has been exposed at the Elia Art Galery in Paris on the 5 and 6 of june 2021.
 More than 150 games were played. 150 drawings were drawn and each are different. 
 
-![montage](https://user-images.githubusercontent.com/91726252/142758852-cce523d6-ded7-42f9-a174-6e011c8072bd.png)
-![montage3](https://user-images.githubusercontent.com/91726252/142758946-f8931804-1124-4810-a128-f5544b8be6af.png)
+![montage](https://user-images.githubusercontent.com/91726252/142781797-6e3b89ab-7480-479d-b069-1ed79aae8382.png)
+![montage3](https://user-images.githubusercontent.com/91726252/142781803-d69ad6e4-2818-435a-abb6-0da0ced6365a.png)
 ![montage2](https://user-images.githubusercontent.com/91726252/142758895-6b32231d-7875-4817-8c37-f86cd06c7a4a.png)
 
 Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
