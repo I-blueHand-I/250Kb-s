@@ -8,7 +8,7 @@
 #define motorInterfaceType 1
 
 
-#define dirPin1 7
+#define dirPin1 8
 #define stepPin1 10
 #define motorInterfaceType1 1
 
@@ -24,8 +24,8 @@ AccelStepper stepper1 = AccelStepper(motorInterfaceType1, stepPin1, dirPin1);
 
 
 void setup() {
-  pinMode ( analogPin, INPUT);
-  pinMode ( analogPin1, INPUT);
+  pinMode (analogPin, INPUT);
+  pinMode (analogPin1, INPUT);
   Serial.begin(250000); //Begin Serial Communication with a baud rate of 250.000
 
   // Set the maximum speed and acceleration:
@@ -41,25 +41,25 @@ void loop() {
   int Value1 = analogRead(analogPin);
   int Value2 = analogRead(analogPin1);
 
-  Val1 = int(map(Value1, 0, 1023, -1, 1));
-  Val2 = int(map(Value2, -100, 1023, -1, 1));
+  Val1 = int(map(Value1, -100, 970, -1, 1));
+  Val2 = int(map(Value2, -200, 1010, -1, 1));
 
   
   switch (Val1) {
-    case 1 :
-      stepper1.setSpeed(-600);
-      stepper1.run();
-    case -1 :
-      stepper1.setSpeed(600);
-      stepper1.run();
-  }
-  switch (Val2) {
     case 1 :
       stepper.setSpeed(600);
       stepper.run();
     case -1 :
       stepper.setSpeed(-600);
       stepper.run();
+  }
+  switch (Val2) {
+    case 1 :
+      stepper1.setSpeed(600);
+      stepper1.run();
+    case -1 :
+      stepper1.setSpeed(-600);
+      stepper1.run();
   }
 
   Serial.print(Val1); // DEC means "send the number in base-10"
